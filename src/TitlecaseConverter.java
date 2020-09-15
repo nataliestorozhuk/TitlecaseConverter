@@ -11,7 +11,7 @@ public class TitlecaseConverter {
                 builder.append(word.substring(0, 1).toUpperCase());
                 builder.append(word.substring(1).toLowerCase());
             }
-            builder.append(" ");
+            builder.append("  ");
         }
         return builder.toString();
     }
